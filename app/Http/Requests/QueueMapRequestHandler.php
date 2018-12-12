@@ -31,7 +31,7 @@ class QueueMapRequestHandler implements RequestHandlerInterface {
      *             ...
      *             "App\\Http\\Request\\SuccessRequestHandler" => [parametros do construtor]
      *          ]
-     *          
+     *
      * @var array
      */
     private $map = [];
@@ -41,7 +41,7 @@ class QueueMapRequestHandler implements RequestHandlerInterface {
      * @method __construct
      * @param  array        $map
      */
-    public function __construct($map){
+    public function __construct($map = []){
         $this->map = $map;
     }
 
