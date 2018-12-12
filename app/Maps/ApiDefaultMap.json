@@ -1,0 +1,26 @@
+[
+  {
+    "App\\Http\\Middlewares\\HttpMethodMiddleware":[
+                                                      "POST"
+                                                   ]
+  },
+  {
+    "App\\Http\\Middlewares\\AuthorizationMiddleware":[
+
+                                                      ]
+  },
+  {
+    "App\\Http\\Middlewares\\BodyParamsMiddleware":[
+                                                      {
+                                                        "nome":"string",
+                                                        "valor":"numeric"
+                                                      }
+                                                  ]
+  },
+  {
+    "App\\Http\\Requests\\SuccessRequestHandler":[
+
+                                              ]
+  }
+
+]
